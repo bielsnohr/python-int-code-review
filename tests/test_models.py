@@ -45,4 +45,4 @@ def test_daily_standard_deviation_on_np_array():
     data = np.array([[0.0]])
     expected_std_devs = [[0.0]]
     out = std_dev(data)['standard deviation']
-    npt.assert_array_almost_equal(data, expected_std_devs)
+    npt.assert_array_almost_equal(out, expected_std_devs)
